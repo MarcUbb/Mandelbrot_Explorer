@@ -129,7 +129,7 @@ def change():
 
 def save():
     im = Image.fromarray(image,"RGB")
-    im.save("res = " + str(RES) + "  pos_x = " + str(POS_X) + "  pos_y = " + str(POS_Y) + "  zoom = " +  str(ZOOM) + "  depth = " + str(DEPTH) +".png")
+    im.save("res = " + str(res) + "  pos_x = " + str(pos_x) + "  pos_y = " + str(pos_y) + "  zoom = " +  str(zoom) + "  depth = " + str(depth) +".png")
 
 
 ########################################################
